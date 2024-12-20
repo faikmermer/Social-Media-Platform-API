@@ -1,0 +1,27 @@
+{
+  "name": "smp-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.2",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0"
+  }
+}
